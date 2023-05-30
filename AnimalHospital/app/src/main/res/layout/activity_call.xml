@@ -39,7 +39,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/consulting"
+        android:id="@+id/edit_consulting"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@color/mint"
@@ -60,12 +60,18 @@
         android:layout_weight="1" />
 
     <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:drawableRight="@drawable/phone_ic"
+        android:text="문자전송" />
+
+    <Button
         android:id="@+id/btn_request"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/pink"
         android:drawableRight="@drawable/phone_ic"
         android:text="상담신청" />
-
-
 </LinearLayout>
